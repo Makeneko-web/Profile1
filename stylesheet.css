@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: sans-sefif;
+    color: #707070;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.wrapper {
+    max-width: 890px;
+    margin: 0 auto;
+}
+
+/*---------------------------------------------------
+ヘッダー
+---------------------------------------------------*/
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header .header-logo {
+    width: 120px;
+    padding: 10px 0;
+}
+
+#header .navi .navi-list {
+    display: flex;
+    margin-right: 20px;
+}
+
+#header .navi .navi-list li {
+    padding-left: 25px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#header .navi .navi-list li a {
+    color: #707070;
+}
+
+/*---------------------------------------------------
+メインビジュアル
+---------------------------------------------------*/
+
+
+/*---------------------------------------------------
+スマートフォン
+---------------------------------------------------*/
+@media screen and (max-width: 767px) {
+
+}
